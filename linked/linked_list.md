@@ -6,9 +6,9 @@ Linked List is linear data (chain) structure where nodes are connected in a sque
 1. Data - value of information
 2. Reference - link to the next node.
 
-The benefits of using linked list structure is the effcient ease to delete and insert with a few references VS shifting with multiple elements like an array.
+The benefits of using linked list structure is the effcient ease to delete and insert with a few references instead of shifting with multiple elements like an array.
 
-Below is an image that displays a single-linked list. The head is the first node which is A with a blank box for next. Then B with a blank box for next and so on.
+Below is an image that displays a single-linked list. The head is the first node which is A with a blank box for next. Then B with a blank box for next and so on. 
 
 ![Nodes](chain.png)
 
@@ -43,7 +43,7 @@ It is exactly how it sounds. Insert the element at the end/tail of the element l
 
 There is more indepth information to learn about this structure. There are ways to update, search through a list using specific data values (kind of like a query), if you want to see each node you use a traverse method and etc. Click the link below to learn more indepth methods. 
 
-[GeeksForGeeks- Python Linke List](https://www.geeksforgeeks.org/python-linked-list/)
+* Reference link:  [GeeksForGeeks- Python Linked List](https://www.geeksforgeeks.org/python-linked-list/)
 
 **Ready for Examples?**
 
