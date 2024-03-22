@@ -1,4 +1,4 @@
-*Linked List Data Structure*
+# Linked List Data Structure
 
 **What is Linked List and how does it work?**
 
@@ -21,19 +21,22 @@ Below is an image of a double-linked list that has a tail to go back to the prev
 
 First lets talk about inserting into a linked list. Arrays when you insert it is normally towards the end of the array. Linked Lists it is only effecting the nodes around the element, which allow the capacity to be more dynamic. Often in code you will see new nd current being used. This can get confusing but current is refered to what exists in the list and new is add new data.
 
-Important code to know and understand to utilize this structure is as follows:
+**Important code to know and understand to utilize this structure as follows:**
 
 ***Insert at the head***
+
 It is exactly how it sounds. Insert the element at the start/head of the element list.
 
 `self.head = new_node`
 
 ***Insert previous node***
+
 Same here with where we want to place the new_node in the middle or in a certain spot in the linked list, for example, use the index and then "prev" or "next". If you wish to place at the tail replace .head with .tail
 
 `new_node.prev = self.head` or `new_node.next = new_node`
 
 ***Insert at the tail***
+
 It is exactly how it sounds. Insert the element at the end/tail of the element list.
 
 `new_node.next = self.tail`
@@ -43,6 +46,7 @@ There is more indepth information to learn about this structure. There are ways 
 [GeeksForGeeks- Python Linke List](https://www.geeksforgeeks.org/python-linked-list/)
 
 **Ready for Examples?**
+
 Ok lets got back over briefly what you have learned:
 1. Linked list is chain of squence with 2 parts to the node. 1. Data and 2. Refernce.
 2. It is flexible with placement of nodes anywhere in the list.

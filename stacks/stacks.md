@@ -1,4 +1,4 @@
-*Stack Data Structure*
+# Stack Data Structure
 
 **What is Stack and how does it work?**
 
@@ -13,24 +13,28 @@ A way to visualized this is imagine stacking pancakes on a plate. The last panca
 
 As becoming a programmer/developer this is used often in forms of lists which are used to fetch data or to search or for whatever purpose a list has in the program structure. 
 
-Important code to know and understand to utilize this structure is as follows:
+**Important code to know and understand to utilize this structure as follows:**
 
 ***Append / Push***
+
 Append or Push is what adds new values onto the stack. Lets say that you ordered 6 pancakes but got 4. Use "append / push" the 2 pancakes onto your exisitng stack.
 
 `stack.append(value)`
 
 ***Pop***
+
 Pop is oddly the opposite of what you would think. It is used to remove values from the stack starting at the top. Lets say you ordered 4 pancakes and got 6 pancakes. Use "pop" on the 2 pancakes to remove from the existing stack.
 
 `stack.pop()`
 
 ***Len***
+
 Len is returning the size of the stack. In the Big O-notation, (reference link: [Big O-notations](https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples/)), this would be a O(1) times, because everytime an update is done to the stack, the size will also update. There would be no need to count everytime.
 
 `length = len(stack)`
 
 **Ready for Examples?**
+
 Ok lets got back over briefly what you have learned:
 1. Stacks are like pancakes and will use either LIFO or FILO.
 2. Commonly used in a form of a list.
