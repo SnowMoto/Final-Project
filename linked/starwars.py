@@ -8,7 +8,7 @@ class StarWarsLinkedList:
         self.head = None
 
     def insert(self, data):
-        """Need to create the function to insert the at the head of the list. 
+        """Create the function to insert the at the head of the list. 
         HINT: mixed current and new nodes.
         """
         pass
@@ -21,7 +21,7 @@ class StarWarsLinkedList:
         pass
 
     def delete(self, data):
-        """Need to create a function that can delete from the list at the head.
+        """Create a function that can delete from the list at the head.
         HINT: While Loop is handy to locate the node.
         """
         pass
