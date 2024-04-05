@@ -25,7 +25,7 @@ def preorder_traversal(node):
         preorder_traversal(node.left)
         preorder_traversal(node.right)
 
-# Characters for the Lion King movie
+# Creating characters from the Lion King movie
 mufasa = TreeNode("Mufasa")
 simba = TreeNode("Simba")
 scar = TreeNode("Scar")
@@ -34,7 +34,7 @@ timon = TreeNode("Timon")
 zazu = TreeNode("Zazu")
 rafiki = TreeNode("Rafiki")
 
-# Building the relationships between characters
+# The relationships between characters
 mufasa.left = simba
 mufasa.right = scar
 simba.left = nala
