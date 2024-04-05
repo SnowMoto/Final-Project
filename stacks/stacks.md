@@ -2,7 +2,7 @@
 
 **What is Stack and how does it work?**
 
-Stack is a data structure that following an order of performing operations known as LIFO (last in first out) or FILO (first in last out). 
+Stack is a data structure that following an order of performing operations known as LIFO (last in first out) or FILO (first in last out).
 
 A way to visualized this is imagine stacking pancakes on a plate. The last pancake placed on top of the stack will be the first to be eaten before getting to the first pancake on the plate. Below is an image with labels to display the concept.
 
@@ -11,6 +11,10 @@ A way to visualized this is imagine stacking pancakes on a plate. The last panca
 **Ok, I am hungry now! How does this apply to Python?**
 
 As becoming a programmer/developer this is used often in forms of lists which are used to fetch data or to search or for whatever purpose a list has in the program structure. 
+
+Often in this strcuture the use of recursion is implented because of stored data in LIFO using functions that can call and return with different inputs. Recursion is when a function calls itseslf directly or indirectly. This will reduce the length of your code making it easier to read and write. To learn more click the link below:
+
+[Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
 
 **Important code to know and understand to utilize this structure as follows:**
 

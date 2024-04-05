@@ -43,7 +43,7 @@ Here is an example of Python code to test to see if a Binary Tree is balanced or
 **Important code to know and understand to utilize this structure as follows:**
 
 ***insert(value)***
-Add value to the tree with using O(Log n) for every new node that is being added the tree gets smaller and smaller to execute recursively.
+Add value to the tree with using Big-O-Notation O(Log n) for every new node that is being added the tree gets smaller and smaller to execute recursively.
 
 `insert(value)`
 
